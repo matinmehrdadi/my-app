@@ -1,6 +1,6 @@
 
-export default function MealsSharePage() {
+export default function ShareMealsPage() {
   return (
-    <div>MealsSharePage</div>
+    <div>Share Meals</div>
   )
 }

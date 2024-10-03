@@ -1,5 +1,5 @@
 
-export default function mealsPage() {
+export default function MealsPage() {
   return (
     <div>Meals Page</div>
   )
