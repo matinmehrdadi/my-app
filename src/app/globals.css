@@ -1,6 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  margin: 0;
+  background: radial-gradient(#202020, #202020);
+}
 /* :root {
   --background: #ffffff;
   --foreground: #171717;
