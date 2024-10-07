@@ -2,9 +2,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className=" text-center grid py-28  ">
-      <h1 className="text-8xl pb-5">Exercise</h1>
-      <h1 className="text-5xl pb-5">creat three routs !</h1>
+    <main className=" text-center grid pt-28">
+      <h1 className="text-5xl pb-5">Time to get started !</h1>
       <p>
         <Link href="/meals">/ Meals</Link>
       </p>

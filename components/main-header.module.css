@@ -5,3 +5,11 @@
   border-radius: 0.5rem;
 }
 
+.backG {
+  /* background-image: url('<svg viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg"></svg>');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background: linear-gradient(to right, #ffb876, #00fa21);
+  position: fixed; */
+}
