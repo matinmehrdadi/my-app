@@ -8,8 +8,16 @@ html {
 body {
   margin: 0;
   background: linear-gradient(#1f1f1f, #1f1f1f);
-}
 
+  /* height: 5100px; */
+}
+body {
+  /* background-image: url(); */
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; */
+}
 /* :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -21,7 +29,6 @@ body {
     --foreground: #ededed;
   }
 }
-
 body {
   color: var(--foreground);
   background: var(--background);
