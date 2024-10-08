@@ -7,8 +7,9 @@ html {
 }
 body {
   margin: 0;
-  background: radial-gradient(#202020, #202020);
+  background: linear-gradient(#1f1f1f, #1f1f1f);
 }
+
 /* :root {
   --background: #ffffff;
   --foreground: #171717;
