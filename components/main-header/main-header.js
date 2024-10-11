@@ -7,12 +7,12 @@ export default function MainHeader() {
   return (
     <>
       <MainHeaderBackground />
-      <div className="w-[100%] h-96 text-white px-28 z-10 ">
+      <div className="w-[100%] h-96 text-white px-28  ">
         <header className="flex text-center items-center content-center justify-between pt-12">
           <div className="flex text-center items-center">
             <Link href="/" className=" flex text-center items-center ">
               <Image
-                className=" max-w-32 min-w-32 max-h-32 min-h-32 relative right-10  "
+                className=" max-w-32 min-w-32 max-h-32 min-h-32 right-10  "
                 src={logoImg}
                 alt="A plate with food on it"
               />
@@ -26,7 +26,7 @@ export default function MainHeader() {
               <li className="block z-10">
                 <Link href="/meals">Browse Meals</Link>
               </li>
-              <li className="z-10">
+              <li className=" block z-10">
                 <Link href="/community">Foodies Community</Link>
               </li>
             </ul>
