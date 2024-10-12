@@ -4,10 +4,11 @@ import Image from "next/image";
 import classes from "../../components/main-header/main-header.module.css";
 import MainHeaderBackground from "./main-header-background";
 export default function MainHeader() {
+  // console.log("Executing");
   return (
     <>
       <MainHeaderBackground />
-      <div className="w-[100%] h-96 text-white px-28  ">
+      <div className="w-[100%] h-96 text-white px-28 ">
         <header className="flex text-center items-center content-center justify-between pt-12">
           <div className="flex text-center items-center">
             <Link href="/" className=" flex text-center items-center ">

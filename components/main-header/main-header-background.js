@@ -1,6 +1,4 @@
 import classes from "../main-header/main-header-background.module.css";
-// import Image from "next/image";
-// import ba from "../../src/app/globals.css";
 export default function MainHeaderBackground() {
   return (
     <>
