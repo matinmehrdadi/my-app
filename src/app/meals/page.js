@@ -1,4 +1,4 @@
-import MainHeader from "../../../components/main-header/main-header";
+// import MainHeader from "../../../components/main-header/mainHeader";
 
 export default function MealsPage() {
   return (
