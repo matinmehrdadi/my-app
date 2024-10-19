@@ -5,8 +5,8 @@ function MealsItem({ title, slug, image, summary, creator }) {
   return (
     <article className={classes.meal}>
       <header>
-        <div className={classes.Image}>
-          <Image src={image} alt={title} fill />
+        <div className={classes.Image} fill>
+          <img src={image} alt={title} />
         </div>
         <div className={classes.headerText}>
           <h2>{title}</h2>
