@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import classes from "../meals/meals-item.module.css";
 import Link from "next/link";
 function MealsItem({ title, slug, image, summary, creator }) {

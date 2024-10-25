@@ -1,9 +1,11 @@
 import Link from "next/link";
 import classes from "../app/page.module.css";
 import ImageSlideshow from "../../components/images/image-slideshow";
+// import MealsLoadingPage from "./loading-out.js";
 export default function Home() {
   return (
     <>
+      {/* <MealsLoadingPage /> */}
       <header className={classes.header}>
         <div className={classes.slideshow}></div>
         <ImageSlideshow />
